@@ -22,7 +22,7 @@ function App() {
   }
 
   // Base date
-  const baseDate = new Date('2024-09-14');
+  const baseDate = new Date();
 
   // Calculate the new date based on the count
   const newDate = new Date(baseDate.getTime() + count * 24 * 60 * 60 * 1000);
